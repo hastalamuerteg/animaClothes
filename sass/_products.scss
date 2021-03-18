@@ -1,0 +1,47 @@
+@use 'config';
+
+.products-masc, .products-fem {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1rem;
+
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 7rem auto;
+    }
+
+
+    img {
+        width: 17rem;
+        height: 25rem;
+        border-radius: 1%;
+        box-shadow: 1px 5px 5px rgba(0,0,0,0.4);
+    }
+
+
+    p {
+        letter-spacing: .1rem;
+    }
+}
+
+
+.products-section {
+    display: block;
+    background-color: config.$black;
+    padding: 0.2rem;
+    margin-top: 4rem;
+
+    h2 {
+        text-align: center;
+        font-size: 3rem;
+        color: config.$white;
+    }
+}
+
+.products-card {
+    flex-wrap: wrap;
+}

@@ -1,0 +1,59 @@
+@use 'config';
+
+
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: config.$white;
+}
+
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    background-color: config.$black;
+}
+
+.logo {
+    height: 11rem;
+}
+
+.shopping-cart {
+    color: config.$white;
+}
+
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    li {
+        list-style: none;
+        font-size: 1rem;
+        margin-right: 5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: config.$black;
+        transition: .2s;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: config.$primary-color;
+    }
+
+    .outlet a {
+        color: config.$primary-color;
+        font-weight: bold;
+
+        &:hover {
+            color: config.$black;
+
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@use 'config';
+
+
+.slider {
+    max-width: 100rem;
+    height: 40rem;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 1px 5px 5px rgba(0,0,0,0.4);
+    overflow: hidden;
+
+    .slide {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 1s;
+
+        h2 {
+          text-align: center;
+          flex-wrap: wrap;
+          position: absolute;
+          font-weight: bold;
+          color: config.$white;
+        }
+
+      img {
+        height: 40rem;
+        width: 100rem;
+        object-fit: cover;
+      }
+
+    }
+}
+

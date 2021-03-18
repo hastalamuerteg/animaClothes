@@ -1,0 +1,82 @@
+@use 'config';
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    border: none;
+    background-color: config.$black;
+    font-family: inherit;
+    color: config.$white;
+    height: 5rem;
+    width: 5rem;
+    font-size: 4rem;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .slider-btn:active {
+    border-style: none;
+  }
+
+  .slider-btn-left {
+    left: 6%;
+  }
+  .slider-btn-right {
+    right: 6%;
+  }
+
+.dots {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+
+  .dots_dot {
+    border: none;
+    background-color: config.$white;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin-right: 1.75rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+  }
+
+  .dots_dot:last-child {
+    margin: 0;
+  }
+
+  .dots_dot_active {
+    background-color: config.$primary-color;
+    opacity: 1;
+  }
+
+
+%button {
+  text-decoration: none;
+  padding: 1rem 3rem;
+  background-color: config.$black;
+  color: config.$white;
+  transition: .2s;
+
+  &:hover {
+      background-color: lighten(config.$black, 20%);
+  }
+}
+
+
+.btn-discount {
+  margin: 1rem;
+  @extend %button;
+}
+
+.btn-buy {
+  @extend %button;
+}
+
+.submit {
+  @extend %button;
+}

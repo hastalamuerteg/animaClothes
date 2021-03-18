@@ -1,0 +1,20 @@
+@use 'config';
+@use 'main';
+@use 'slider';
+@use 'buttons';
+@use 'products';
+@use 'footer';
+@use 'responsive';
+@use 'smallSections';
+
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, Arial, sans-serif;
+}

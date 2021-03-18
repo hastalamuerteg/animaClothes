@@ -1,0 +1,33 @@
+@use 'config';
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15rem;
+    padding: 7rem 3rem;
+    height: auto;
+    background-color: config.$black;
+  }
+
+  .footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .footer-logo {
+    height: 3rem;
+    padding: 2rem;
+  }
+
+  .footer-copyright {
+    font-size: 1rem;
+    font-weight: bold;
+    color: config.$white;
+  }

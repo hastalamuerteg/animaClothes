@@ -1,0 +1,57 @@
+@media only screen and (max-width: 770px) {
+    .slider {
+        max-width: 50rem;
+        height: 40rem;
+    }
+
+    .slide  {
+        overflow: hidden;
+    }
+
+
+    .products-masc, .products-fem {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        margin: 0 auto;
+
+
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .slider {
+        max-width: 50rem;
+        height: 40rem;
+    }
+
+    .slide  {
+        overflow: hidden;
+    }
+
+
+    .products-masc, .products-fem {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        margin: 0 auto;
+
+        div {
+            margin: 2.5rem auto;
+        }
+    }
+
+    .nav-menu {
+        display: flex;
+        font-size: 0.5rem;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .slider-btn {
+        background-color: transparent;
+    }
+
+
+}
