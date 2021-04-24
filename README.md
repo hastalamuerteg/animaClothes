@@ -1,19 +1,66 @@
-# animaClothes
+# Anima Clothes 👚👚
 
-ANIMA Clothes. é uma empresa fictícia que eu criei para desenvolver um layout de e-commerce de vendas de roupas varejo.
+## Project
 
-Este projeto foi criado no objetivo de estudar e aplicar o conhecimento da ferramenta SASS, pré-processador de CSS.
+ANIMA Clothes. is a fictional company, created to sketch an e-commerce layout design for a clothing store.
 
-Utilizei também Javascript e Html.
+## Concepts 💭💭
 
-Dentro do projeto utilizei os conceitos de módulos para isolamento de estilos CSS e organização do código
+This project was created to study SASS(CSS) making use of concepts such as:
 
-Utilizei também a criação de variáveis dentro do SASS e também herança para reaproveitamento de código.
+- Inheritance
+- Modules
+- Variables
+- Nesting
 
-Utilizei Javascript para a lógica de criação do Slider e também para manipulação dos cards, para mostrar os produtos em uma perspectiva frente e verso.
+And Javascript making use of:
 
-No link abaixo está a apresentação em vídeo do projeto.
+- DOM Manipulation
+- Slider component
+- Array methods
+- Events
 
+## Technologies 🧰🧰
+
+- HTML5
+- CSS3
+- SASS
+- Javascript
+
+## Layout 💅🏼💅🏼
+
+### Header
+
+![alt](/screenshots/header.png)
+
+### Feminine Section
+
+![alt](/screenshots/feminine.png)
+![alt](/screenshots/feminine2.png)
+
+### Discount
+
+![alt](/screenshots/discount.png)
+
+### Masculine Section
+
+![alt](/screenshots/masculine.png)
+
+### Newsletter
+
+![alt](/screenshots/news.png)
+
+### Footer
+
+![alt](/screenshots/footer.png)
+
+## Video 📼📼
+
+Find this project video presentation in the link below
 https://www.linkedin.com/feed/update/urn:li:activity:6778327057114963968/
 
-Obrigado.
+Thank you.
+
+###### This project may still suffer changes
+
+###### Developed by Gabriel Vicente
